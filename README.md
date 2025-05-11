@@ -1,4 +1,4 @@
-# Portfolio of Manu T
+# Portfolio Manu T
 
 This project was created with CRA (Create React App)
 
