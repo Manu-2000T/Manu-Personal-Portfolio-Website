@@ -5,7 +5,8 @@ This project was created with CRA (Create React App)
 This is my portfolio website to introduce myself, here I put my skills, projects, and contact details.
 
 ## Portfolio Screenshot
-![Uploading image.png…]()
+
+![Portfolio Screenshot](./images/9874f142-8f12-4ee5-8911-fa8ac6a61e76.png)
 
 ## Technologies used:
 - React
