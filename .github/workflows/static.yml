@@ -39,13 +39,22 @@ jobs:
         env:
           CI: false
 
+      - name: Debug - List directories
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Directory contents:"
+          ls -la
+          echo "Build directory contents (if exists):"
+          ls -la build || echo "Build directory not found"
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './build'
+          path: 'build'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
